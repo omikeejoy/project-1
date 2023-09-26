@@ -1,4 +1,8 @@
-font-family: @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter';
+}
 
 li, a button {
     font-family: "Inter", sans-serif;
@@ -11,7 +15,7 @@ li, a button {
 
 header {
     background-color: #F8FAFC;
-    margin: -16px;
+    margin: -16px; 
     display: flex;
     justify-content: space-around;
     padding: 30px 10%;
@@ -192,6 +196,13 @@ button:hover {
     transition: 0.3 ease 0;
 }
 
+.copyright {
+    display: flex;
+}
+
+.copyright a {
+    display: inline;
+}
 footer {
     background-color: #222222;
     color: white;
@@ -199,5 +210,4 @@ footer {
     width: 100%;
     padding: 35px;
     margin: -10px;
-    
 }
