@@ -1,0 +1,203 @@
+font-family: @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+li, a button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: #F8FAFC;
+    margin: -16px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10%;
+}
+
+.abtlogo {
+    cursor: pointer;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+
+}
+
+button {
+    color: #FFF;
+    background: #3897d3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s ease 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3288bd;
+}
+
+.AboutMe {
+    background-color: #F8FAFC;
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -.72px;
+    margin: -16px;
+    padding: 15px 20px 35px;
+}
+
+.AboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.AboutMe h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.AboutMe img {
+    border-radius: 10px;
+    vertical-align: right;
+    box-sizing: border-box;
+    width: 35%;
+}
+
+.Subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Subscribe {
+    background-color: #F8FAFC;
+    color: #333;
+    padding: 20px 15px 25px 15px;
+    margin-bottom: 15px;
+}
+
+.WhoAmI {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-items: center;
+    margin: 15px;
+    color: #333;
+    word-spacing: 2%;
+}
+
+.WhoAmI h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.WhoAmI p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.WhoAmI img {
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+    flex-basis: 35%;
+    width: 95%;
+}
+
+.Facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    word-spacing: 2px;
+}
+
+.Facts li {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.Journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.Journey img {
+    border-radius: 10px;
+    display: block;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    display: flex;
+    align-content: space-between;
+    padding: 15px;
+    margin-bottom: 10%;
+}
+
+.box {
+    margin: 25px -16px;
+    align-content: center;
+}
+
+.box input[type=text] {    
+    display: inline-block;
+    background: #ffffff;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #e3e3e3;
+    line-height: 1.4;
+    border-radius: 10px;
+    color: #e3e3e3;
+    width: 100%;
+    margin: 4px;
+}
+
+.box input[type=submit] {
+    background-color: #3897d3;
+    color: #e3e3e3;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin: 15px;
+    line-height: 1.4;
+    font-size: 15px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.box input[type=submit]:hover {
+    background-color: #3288bd;
+    transition: 0.3 ease 0;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 35px;
+    margin: -10px;
+    
+}
